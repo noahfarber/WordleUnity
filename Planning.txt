@@ -1,0 +1,23 @@
+Input Box
+- Num letters
+
+- Init()
+- - Create Boxes based on num letters
+- - 
+
+- AddLetter(char)
+- DeleteLetter(char)
+
+
+
+
+States
+
+Main Menu
+
+Playing State
+Init
+Guessing
+SubmitGuess
+Invalid Guess
+Game Over
