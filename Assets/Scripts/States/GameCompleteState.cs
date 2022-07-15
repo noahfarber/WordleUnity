@@ -9,6 +9,7 @@ public class GameCompleteState : State
     [SerializeField] private GameObject _GameOverView;
     [SerializeField] private TextMeshProUGUI _GameOverText;
     [SerializeField] private TextMeshProUGUI _FinalAnswer;
+    [SerializeField] private InitGameState _InitGameState;
 
     public override void OnStateEnter()
     {
@@ -18,6 +19,12 @@ public class GameCompleteState : State
     public override State OnUpdate()
     {
         State rtn = null;
+        
+        if(Input.GetKeyDown(KeyCode.Return))
+        {
+            rtn = _InitGameState;
+        }
+
         return rtn;
     }
 

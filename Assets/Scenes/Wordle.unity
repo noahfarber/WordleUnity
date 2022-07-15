@@ -3023,6 +3023,7 @@ MonoBehaviour:
   _GameOverView: {fileID: 1639915269}
   _GameOverText: {fileID: 1737779375}
   _FinalAnswer: {fileID: 864821754}
+  _InitGameState: {fileID: 1097296708}
 --- !u!1 &655509871
 GameObject:
   m_ObjectHideFlags: 0
@@ -8151,6 +8152,7 @@ MonoBehaviour:
   _GameOverView: {fileID: 1639915269}
   _GameOverText: {fileID: 1737779375}
   _FinalAnswer: {fileID: 864821754}
+  _InitGameState: {fileID: 1097296708}
 --- !u!1001 &1793469441
 PrefabInstance:
   m_ObjectHideFlags: 0
